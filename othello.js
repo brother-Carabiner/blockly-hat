@@ -140,20 +140,6 @@ function showTurn() {
   numBlack = nums[1];
   // numEmpty = nums[2];
 
-  //盤面の石の数を数える
-  // for (let x = 0; x < cells; x++) {
-  //   for (let y = 0; y < cells; y++) {
-  //     if (data[x][y] === WHITE) {
-  //       numWhite++;
-  //     }
-  //     if (data[x][y] === BLACK) {
-  //       numBlack++;
-  //     }
-  //     if (data[x][y] === 0) {
-  //       numEmpty++;
-  //     }
-  //   }
-  // }
 
   document.getElementById("numBlack").textContent = numBlack;
   document.getElementById("numWhite").textContent = numWhite;
